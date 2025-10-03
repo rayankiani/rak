@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Professional Digital Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav aria-label="Primary navigation">
+      <a href="#home" class="active">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <!-- Home / About Me -->
+    <section id="home" tabindex="-1" aria-label="About Me">
+      <div class="photo" aria-hidden="true">
+        <img src="./face-swap4.png" alt="Professional photo of [R.A.K]" />
+      </div>
+      <div class="intro">
+        <h1>Hello, I'm <span style="color:#008080;">Rayan Kayani</span></h1>
+        <p class="bio">A passionate software developer with expertise in building scalable web applications and a knack
+          for creative problem-solving.</p>
+        <p class="mission">My mission is to deliver impactful digital solutions that empower businesses and enrich user
+          experiences.</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" tabindex="-1" aria-label="Skills">
+      <h2>Skills</h2>
+      <div class="skills-grid" aria-live="polite">
+        <!-- Skill example -->
+        <div class="skill" aria-label="JavaScript skill level 90 percent">
+          <div class="skill-icon" aria-hidden="true"><img src="./js.png" alt="not showing" width="43px" height="43px"
+              style="margin-left: 55px; margin-top: 23px;"></div>
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
+            <div class="skill-level" data-level="20"></div>
+          </div>
+        </div>
+        <div class="skill" aria-label="HTML skill level 85 percent">
+          <div class="skill-icon" aria-hidden="true">🏗️</div>
+          <div class="skill-name">HTML</div>
+          <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">
+            <div class="skill-level" data-level="85"></div>
+          </div>
+        </div>
+        <div class="skill" aria-label="CSS skill level 80 percent">
+          <div class="skill-icon" aria-hidden="true">🎨</div>
+          <div class="skill-name">CSS</div>
+          <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80">
+            <div class="skill-level" data-level="80"></div>
+          </div>
+        </div>
+        <div class="skill" aria-label="Communication skill level 95 percent">
+          <div class="skill-icon" aria-hidden="true">💬</div>
+          <div class="skill-name">Communication</div>
+          <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95">
+            <div class="skill-level" data-level="55"></div>
+          </div>
+        </div>
+        <div class="skill" aria-label="Problem Solving skill level 90 percent">
+          <div class="skill-icon" aria-hidden="true">🧩</div>
+          <div class="skill-name">Problem Solving</div>
+          <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
+            <div class="skill-level" data-level="50"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" tabindex="-1" aria-label="Experience">
+      <h2>Experience</h2>
+      <div class="timeline" role="list">
+        <article class="timeline-item" role="listitem">
+          <h3>Senior Software Engineer</h3>
+          <span>ARPA Tech — Jan 2021 - Present</span>
+          <p>Leading a team to develop scalable web applications using React and Node.js. Improved app performance by
+            30% and mentored junior developers.</p>
+        </article>
+        <article class="timeline-item" role="listitem">
+          <h3>Frontend Developer</h3>
+          <span>SMIT — Jun 2018 - Dec 2020</span>
+          <p>Developed responsive UI components and collaborated with designers to enhance user experience. Reduced page
+            load time by 25%.</p>
+        </article>
+        <article class="timeline-item" role="listitem">
+          <h3>Junior Developer</h3>
+          <span>Startup Hub — Jan 2016 - May 2018</span>
+          <p>Assisted in building MVPs and prototypes. Gained experience in full-stack development and agile
+            methodologies.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects / Portfolio Work -->
+    <section id="projects" tabindex="-1" aria-label="Projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="./BRanding .png" alt="Screenshot of Project One" class="project-image" />
+          <div class="project-content">
+            <h3>Project One</h3>
+            <p>A web app that helps users to tranform their digital presence.Turning online challenges into growth
+              opportunities through strategic digital marketing and brand development.</p>
+            <div class="project-links">
+              <a href="https://keen-cocada-0080f1.netlify.app/" target="_blank" rel="noopener">Live Demo</a>
+              <a href="#" target="_blank" rel="noopener">Case Study</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="./Screenshot (8).png" alt="Screenshot of Project Two" class="project-image" />
+          <div class="project-content">
+            <h3>Project Two</h3>
+            <p>An invoice management system designed to generate, manage, and track invoices efficiently. It allows
+              users to create professional invoices, manage client details, track payments, and generate reports,
+              helping businesses streamline their billing process and maintain accurate financial records.</p>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a href="#" target="_blank" rel="noopener">Case Study</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" tabindex="-1" aria-label="Education">
+      <h2>Education</h2>
+      <div class="edu-list">
+        <div class="edu-item">
+          <h3>Bachelor of Science in Computer Science</h3>
+          <span>University of Peshawar — 2023 - 2027</span>
+          <p>Graduated with honors, focusing on software engineering and Machine Learning.</p>
+        </div>
+        <div class="edu-item">
+          <h3>Certified Web Developer</h3>
+          <span>Online Course — 2025</span>
+          <p>Completed a comprehensive web development course covering HTML, CSS, and JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" tabindex="-1" aria-label="Testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p>"An exceptional developer with a keen eye for detail and a passion for clean code."</p>
+          <div class="testimonial-author">- Jane Doe, CEO of TechCorp</div>
+        </div>
+        <div class="testimonial-card">
+          <p>"Consistently delivers high-quality work and exceeds expectations."</p>
+          <div class="testimonial-author">- John Smith, Project Manager at WebWorks</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" tabindex="-1" aria-label="Contact">
+      <h2>Contact</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <a href="mailto:your.email@example.com" aria-label="Email">📧</a>
+          <a href="tel:+1234567890" aria-label="Phone">📞</a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" aria-label="LinkedIn">🔗</a>
+        </div>
+        <form>
+          <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" aria-label="Your Email" required />
+          <textarea name="message" rows="4" placeholder="Your Message" aria-label="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // Intersection Observer for section visibility
+      const sections = document.querySelectorAll('section');
+      const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { threshold: 0.1 });
+
+      sections.forEach(section => sectionObserver.observe(section));
+
+      // Intersection Observer for skill bars animation
+      const skillsSection = document.getElementById('skills');
+      const skillsObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const skillLevels = entry.target.querySelectorAll('.skill-level');
+            skillLevels.forEach(level => {
+              const width = level.dataset.level + '%';
+              level.style.width = width;
+            });
+            skillsObserver.unobserve(entry.target); // Animate once
+          }
+        });
+      }, { threshold: 0.5 });
+
+      skillsObserver.observe(skillsSection);
+
+      // Update active nav link on scroll
+      const navLinks = document.querySelectorAll('nav a');
+      window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          if (pageYOffset >= sectionTop - sectionHeight / 3) {
+            current = section.getAttribute('id');
+          }
+        });
+
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href').slice(1) === current) {
+            link.classList.add('active');
+          }
+        });
+      });
+    </script>
+
+</body>
+
+</html>
